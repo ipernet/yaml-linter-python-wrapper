@@ -4,7 +4,7 @@ import yaml, sys, getopt, os.path
 
 def main(argv):
     try:
-        opts, args = getopt.getopt(argv,"hi:")
+        opts, args = getopt.getopt(argv, "hi:")
     except getopt.GetoptError:
         print 'linter.py -i <inputfile.yml>'
         sys.exit(2)
